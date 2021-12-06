@@ -49,7 +49,15 @@ var sample = new Sound('sample.mp3', Sound.MAIN_BUNDLE, (error) => {
   title="This is button 2!"
   color="orange"
   onPress={() =>Alert.alert('Button 2 press')}/>
-        <Button title="press" style={styles.playBtn} onPress={playPause} />
+  <Button
+  title="Button 3"
+  color="yellow"
+  onPress={() =>Alert.alert('Button pressed again!')}/>
+   <Button
+  title="Button 4"
+  color="green"
+  onPress={() =>Alert.alert('Button pressing!')}/>
+        <Button title="Play a sound!" style={styles.playBtn} onPress={playPause} />
                
       </View>
     );
